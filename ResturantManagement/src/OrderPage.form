@@ -1,0 +1,2068 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Resutrant Management "/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Default Cursor"/>
+    </Property>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[450, 250]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace pref="150" max="32767" attributes="0"/>
+              <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="552" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSplitPane1" pref="0" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="269" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace pref="17" max="32767" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Component id="jSplitPane1" min="-2" pref="451" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+    </Container>
+    <Container class="javax.swing.JSplitPane" name="jSplitPane1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+              <JSplitPaneConstraints position="left"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="dessertButton" alignment="1" max="32767" attributes="0"/>
+                          <Component id="dinnetButton" alignment="0" max="32767" attributes="0"/>
+                          <Component id="soupButton" alignment="1" max="32767" attributes="0"/>
+                          <Component id="breakfastButton" alignment="0" max="32767" attributes="0"/>
+                          <Component id="beverageButton" alignment="1" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Component id="orderButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="breakfastButton" min="-2" pref="25" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="soupButton" min="-2" pref="25" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="dinnetButton" min="-2" pref="25" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="dessertButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="beverageButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="orderButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="breakfastButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Breakfast"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="breakfastButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="soupButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Soups"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="soupButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="dinnetButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" Dinner &amp; Lunch"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dinnetButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="dessertButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Dessert"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dessertButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="beverageButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Beverage"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="beverageButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="orderButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Take Order"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="orderButtonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <Properties>
+            <Property name="autoscrolls" type="boolean" value="true"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+              <JSplitPaneConstraints position="right"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="menu">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="bvrgMenu">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                      <BorderConstraints direction="Center"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="216" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                                      <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item41" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item42" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item43" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item44" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item45" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel27" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value41" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value42" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value43" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value44" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value45" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel28" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text41" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text42" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text43" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text44" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text45" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item41" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value41" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text41" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item42" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value42" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text42" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item43" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value43" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text43" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item44" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value44" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text44" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item45" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value45" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text45" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel25">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="25" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Beverage"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel26">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Name"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel27">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Price"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel28">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Quantity"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item41">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Coffee"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value41">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 25/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text41">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item42">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value=" Tea"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value42">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 10/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text42">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text43">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value43">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 70/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item43">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Soft Drinks &#x2013; Litre Bottle"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text44">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value44">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 40/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item44">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Soft Drinks &#x2013; 250 ml can"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text45">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item45">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Latte"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value45">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 80/-"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="dsrtMenu">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                      <BorderConstraints direction="Center"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="216" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                                      <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                                      <Component id="item31" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item32" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item33" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item34" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item35" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item36" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item37" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item38" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item39" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item40" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value31" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value32" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value33" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value34" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value35" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value36" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value37" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value38" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value39" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value40" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text31" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text32" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text33" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text34" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text35" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text36" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text37" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text38" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text39" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text40" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item31" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value31" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text31" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item32" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value32" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text32" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item33" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value33" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text33" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item34" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value34" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text34" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item35" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value35" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text35" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item36" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value36" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text36" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item37" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value37" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text37" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item38" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value38" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text38" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item39" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value39" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text39" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item40" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value40" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text40" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel21">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="25" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Dessert"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel22">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Name"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel23">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Price"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel24">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Quantity"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item31">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value=" Firni"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value31">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 65/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text31">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item32">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Gurer Payesh"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value32">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 50/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text32">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text33">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value33">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 40/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item33">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Brownie"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text34">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value34">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 260/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item34">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Caramel Pudding (serves 6)"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text35">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item35">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Caramel Pudding (serves 12)"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value35">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 540/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item36">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Georgia Peach Pie"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value36">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 50/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text36">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text37">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value37">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 350/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item37">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Nutella-Swirl Pound Cake"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item38">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Apple pie"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text38">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value38">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 250/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item39">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Baked custard"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value39">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 200/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text39">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text40">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item40">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="The spread of sugarcane"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value40">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 380/-"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="dnrMenu">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                      <BorderConstraints direction="Center"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                                      <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item21" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item22" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item23" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item24" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item25" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item26" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item27" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item28" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item29" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item30" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value21" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value22" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value25" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value26" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value27" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value28" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value29" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value30" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text21" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text22" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text23" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text24" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text25" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text26" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text27" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text28" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text29" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text30" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item21" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value21" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text21" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text23" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item24" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value24" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text24" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text25" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item26" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value26" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text26" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item27" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value27" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text27" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item28" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value28" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text28" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item29" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value29" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text29" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item30" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value30" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text30" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel17">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="25" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Dinner &amp; Lunch"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel18">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Name"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel19">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Price"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel20">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Quantity"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item21">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="BBQ Chicken 1 Pc"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value21">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 165/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text21">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item22">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Chicken Bhuna"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value22">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 500/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text22">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text23">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value23">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 500/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item23">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Chicken Rezala"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text24">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value24">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 500/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item24">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Butter Chicken"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text25">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item25">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Shorshe Chicken"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value25">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 500/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item26">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Beef Korma"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value26">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 550/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text26">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text27">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value27">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 600/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item27">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Mutton Rezala"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item28">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Fish Curry 4pcs"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text28">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value28">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 500/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item29">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Prawn Bhuna"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value29">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 350/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text29">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text30">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item30">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Fish Bhuna"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value30">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 320/-"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="supMenu">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                      <BorderConstraints direction="Center"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item11" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item12" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item13" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item14" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item15" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item16" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item17" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item18" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item19" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item20" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value17" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value18" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value20" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text11" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text12" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text13" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text14" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text15" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text16" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text17" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text18" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text19" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text20" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="240" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text11" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text13" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text14" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text15" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text16" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item17" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value17" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text17" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text18" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text19" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item20" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value20" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel13">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="25" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Soup"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel14">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Name"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel15">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Price"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel16">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Quantity"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item11">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Chicken Noodle Soup"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value11">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 65/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text11">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item12">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tortilla Soup"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value12">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 150/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text12">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text13">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value13">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 140/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item13">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Cream Soups"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text14">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value14">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 160/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item14">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Chowder"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text15">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item15">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Slow Cooker Soup Recipes"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value15">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 140/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item16">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Bean and Pea Soups"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value16">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 50/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text16">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text17">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value17">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 150/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item17">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Beef Soup"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item18">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Chicken Soup"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text18">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value18">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 150/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item19">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Thai Soup"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value19">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 200/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text19">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text20">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item20">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="English Special Soup"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value20">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 320/-"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="orderPage">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                      <BorderConstraints direction="Center"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane2" alignment="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="sendOrders" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                              <Component id="printBill" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="214" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="printBill" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="sendOrders" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jScrollPane2MouseClicked"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTable" name="jTable1">
+                          <Properties>
+                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                              <Table columnCount="4" rowCount="0">
+                                <Column editable="false" title="Item Name" type="java.lang.String"/>
+                                <Column editable="true" title="Quantity" type="java.lang.Integer"/>
+                                <Column editable="false" title="Price" type="java.lang.Integer"/>
+                                <Column editable="false" title="Total" type="java.lang.Integer"/>
+                              </Table>
+                            </Property>
+                            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                              <TableColumnModel selectionModel="0">
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                              </TableColumnModel>
+                            </Property>
+                            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                            </Property>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="jTable1AncestorAdded"/>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable1MouseClicked"/>
+                            <EventHandler event="inputMethodTextChanged" listener="java.awt.event.InputMethodListener" parameters="java.awt.event.InputMethodEvent" handler="jTable1InputMethodTextChanged"/>
+                            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTable1KeyTyped"/>
+                            <EventHandler event="vetoableChange" listener="java.beans.VetoableChangeListener" parameters="java.beans.PropertyChangeEvent" handler="jTable1VetoableChange"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="printBill">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Print Bill"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="printBillActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="sendOrders">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Send"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sendOrdersActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="brkfastMenu">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                        <LineBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                      <BorderConstraints direction="Center"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="216" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item4" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item5" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item6" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item7" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item8" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item9" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="item10" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value10" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text1" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text2" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text3" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text4" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text5" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text6" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text7" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text8" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text9" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="text10" min="-2" pref="24" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="item10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="value10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text10" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel9">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="25" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="BreakFast"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel10">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Name"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel11">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Price"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel12">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Quantity"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item1">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Sausage"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value1">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 65/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text1">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item2">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="French Fries"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value2">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 50/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text2">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text3">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value3">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 40/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item3">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Toast- 2 Slices"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text4">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value4">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 60/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item4">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Parata- 2 Pcs"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text5">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item5">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Chapatti- 2 pcs"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value5">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 40/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item6">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Bhaji"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value6">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 50/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text6">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text7">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value7">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x9;Tk. 50/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item7">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Aloo dum"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item8">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Sujir Halwa"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text8">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value8">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 50/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item9">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Bangladeshi Menu"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value9">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 200/-"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text9">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="text10">
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="item10">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="English Breakfast"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="value10">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Ink Free" size="20" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Tk. 320/-"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ink Free" size="25" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CUET CAFE"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
